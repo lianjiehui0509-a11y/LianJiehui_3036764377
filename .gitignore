@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Restricted raw data — do NOT commit (course data-access terms)
+data/*.csv
+data/*.dta
+data/*.dat
+data/*.zip
+
+# macOS
+.DS_Store
+
+# Course materials (assignment PDF, paper PDFs) — not project deliverables
+*.pdf
+
+# Editor
+.vscode/
+.idea/
