@@ -86,8 +86,10 @@ summary of the key estimates.
 (1994): 410 fast-food restaurants in New Jersey and eastern Pennsylvania,
 surveyed in February–March 1992 and November–December 1992. Column definitions
 are in [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md). Per the course data-access
-terms, the raw file is not redistributed here; only the *processed* analysis
-dataset is generated and committed under `output/processed/`.
+terms, the store-level data are **not** redistributed here: neither the raw
+`data/public.csv` nor the store-level processed dataset is committed. The
+workflow regenerates the processed dataset locally under `output/processed/`;
+only aggregate results (the reproduced tables and Figure 1) are committed.
 
 ## Report
 

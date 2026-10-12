@@ -11,6 +11,9 @@ data/*.dta
 data/*.dat
 data/*.zip
 
+# Store-level processed data derived from the restricted raw data — do NOT commit
+output/processed/
+
 # macOS
 .DS_Store
 
