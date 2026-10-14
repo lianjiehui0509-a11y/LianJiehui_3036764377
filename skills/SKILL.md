@@ -14,12 +14,12 @@ command.
 - Raw data at `data/raw/public.csv` (the Princeton public replication dataset:
   410 fast-food restaurants, 46 columns, two survey waves). Obtained from the
   course Package 01 download; see `data/raw/README.md`.
-- Python 3.10+ with the packages in `requirements.txt`.
+- Python 3.10+ with `pandas`, `numpy`, `scipy`, `statsmodels`, and `matplotlib`.
 
 ## Run
 
 ```bash
-pip install -r requirements.txt
+pip install pandas numpy scipy statsmodels matplotlib
 python code/run_all.py
 ```
 
