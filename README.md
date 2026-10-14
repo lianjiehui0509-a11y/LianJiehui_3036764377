@@ -28,6 +28,7 @@ SE 1.20**).
 | --- | --- |
 | `README.md` | This introduction and reproduction guide |
 | `report.pdf` | Final research report (≥ 3,500 words) |
+| `report.docx` | Editable Word version of the report |
 | `report.md` | Editable Markdown source of the report |
 | `AI_USE_DISCLOSURE.md` | How AI was used at each stage and how it was checked |
 | `data/raw/` | Original input data (`public.csv`) — see `data/raw/README.md` |
