@@ -6,20 +6,20 @@ __pycache__/
 .pytest_cache/
 
 # Restricted raw data — do NOT commit (course data-access terms)
-data/*.csv
-data/*.dta
-data/*.dat
-data/*.zip
+data/raw/*.csv
+data/raw/*.dta
+data/raw/*.dat
+data/raw/*.zip
 
 # Store-level processed data derived from the restricted raw data — do NOT commit
-output/processed/
+data/processed/*.csv
 
 # macOS
 .DS_Store
 
-# Course materials (assignment PDF, paper PDFs) — not project deliverables
-*.pdf
-
 # Editor
 .vscode/
 .idea/
+
+# Course materials (assignment PDF) — not a project deliverable
+Individual Project*.pdf
