@@ -1,0 +1,6 @@
+# Restricted data — never commit (course data-access terms)
+data/raw/*.csv
+data/processed/*.csv
+.venv/
+.DS_Store
+Individual Project*.pdf
